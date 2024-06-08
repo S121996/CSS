@@ -1,0 +1,47 @@
+*{margin:0px;padding:0px;}
+div:hover{animation:none;}
+
+.circle1{
+ position:absolute;height:600px;width:600px;border:dashed 10px;border-radius:50%;margin: 20px;
+ background:conic-gradient(red,yellow,blue,orange,red);animation:rotateWheel 12s linear infinite;} 
+
+ .circle2{
+    margin: 20px;
+     position:absolute;
+     top:98px;
+     left:95px;
+     height: 400px;
+width: 400px;
+border: rgb(234, 0, 255) dashed 10px;
+border-radius: 50%;
+background: conic-gradient(rgb(255, 111, 111), rgb(255, 255, 112), rgb(111, 111, 255), rgb(255, 205, 112),rgb(255, 111, 111));
+animation: rotateWheel 12s linear infinite reverse;
+}
+.circle3{
+    margin: 20px;
+position: absolute;
+top: 33%;
+left: 15%;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+border: rgb(0, 255, 183) dashed 10px;
+background: conic-gradient(rgb(129, 0, 0), rgb(145, 145, 0), rgb(0, 0, 133), rgb(134, 87, 0),rgb(129, 0, 0));
+animation: rotateWheel 12s linear infinite;
+} 
+.rotating-wheel {
+width: 100px;
+height: 100px;
+border: 10px solid #3498db;
+border-top: 10px solid transparent;
+border-radius: 50%;
+animation: rotateWheel 2s linear infinite;
+}
+@keyframes rotateWheel {
+0% {
+transform: rotate();
+}
+100% {
+transform: rotate(360deg);
+}
+}

@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+div{height: 50px; width: 70px; background: blue; margin-top: 2px;
+animation: data 15s; animation-fill-mode: forwards; position: relative;
+animation-delay: 3s;
+}
+.a{animation-timing-function: linear;}
+.b{animation-timing-function: ease;}
+.c{animation-timing-function: ease-in;}
+.d{animation-timing-function: ease-in-out;}
+.e{animation-timing-function: ease-out;}
+
+@keyframes data{
+    0%{left: 0px;}
+   50%{left: 800px;}
+   100%{left: 0px;}
+}
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+</body>
+</html>

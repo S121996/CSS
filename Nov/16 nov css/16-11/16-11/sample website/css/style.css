@@ -1,0 +1,16 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.mainbody{height: auto; width: 100%;}
+.header{height: auto; width: 100%; background: lightblue; padding: 30px;}
+.header img{height: 70px; width: 70px; margin-left: 50px;}
+.header p{float: right; margin-right: 150px; font-size: 40px; font-weight: bold;
+font-family: cursive;}
+.nav{height: auto; width: 100%; background: lightgoldenrodyellow; padding: 17px 0px;
+position: sticky; top: 0px;
+}
+.nav a{text-decoration: none; padding: 17px 40px;}
+.nav a:hover{background: purple; color: white;}
+.slider{height: auto; width: 100%;}
+.center{height: 1000px; width: 100%;}
+.left{height: 1000px; width: 25%; float: left; background: lightcoral;
+text-align: center; padding-top: 10px; line-height: 30px;}
+.right{height: 1000px; width: 75%; float: right; background: lightskyblue;}

@@ -1,0 +1,99 @@
+*{padding: 0px; margin: 0px;}
+.container{
+    height: 1000px;
+    width: 70%; 
+    border: 2px solid black; 
+    position: relative;
+    transform:translateX(200px);}
+.header{
+    height: 130px; 
+    background: rgb(48, 155, 255);}
+.header img{
+    height:50px;
+    width: auto;
+    padding: 40px 0px 0px 60px;}
+.header p{
+    transform: translate(325px, -40px);
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+        
+}
+.menu{
+    height: auto; 
+    width: 100%; 
+    
+    background: rgb(159, 158, 158); 
+    padding: 17px 0px; }
+.menu a{
+    text-decoration: none; 
+    font-weight: bold;
+    color: rgb(59, 57, 57);
+    padding: 17px 80px; 
+    text-align: center;}
+.menu a:hover{
+    background: purple; 
+    color: white;}
+
+.center{
+    
+    width: 590px;
+    margin-left: 30px;
+    }
+.center h1{color: rgb(45, 132, 239);
+    margin-top: 20px;       
+}
+.center h2{
+    margin-top: 10px;
+}
+.center p{
+    margin-top: 20px;
+}
+.center h3{
+    margin: 20px 0px 15px 0px;
+  
+}
+.center h4{
+    margin: 10px 0px 5px 0px;
+}
+.box{
+    height: 400px;
+    width: 200px;
+    background: rgb(156, 158, 160);
+    position: absolute;
+    top: 230px;
+    left: 74%;
+}
+.subs{text-align: center; 
+    font-size: 25px;
+}
+.box a{font-size:15px;
+     text-decoration: none;
+     color: black; 
+     margin:16px 0px 0px 20px;
+}
+.box h2{color: rgb(45, 132, 239);
+    text-align: center;
+}
+.box p{ font-size: 13px;
+    text-decoration: underline;
+    margin: 0px 20px 0px 20px;
+}
+.box button{background: yellowgreen;
+    height: 30px;
+    width: 110px;
+    color: black;
+    font-size: 12px;
+    margin: 15px 0px 0px 50px;
+    border: none;
+}
+.footer{height: 100px; width: 100%;
+     background: rgb(45, 44, 44);
+     margin: 31px 0px 0px 0px;
+    
+    
+}
+.footer p{ color: white;
+    padding: 20px;
+
+}

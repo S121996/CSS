@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+
+}
+
+div{
+    height:300px ;
+    width:300px;
+    background: crimson;
+    margin: 20px 20px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+}
+
+#box{
+  height:380px ;
+  width:380px ;
+  background-color: rgb(73, green, blue);
+  overflow: hidden;
+}
+#box img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    transition: all ease 1s;
+
+}
+#box:hover img{
+    scale: 1.2;
+}

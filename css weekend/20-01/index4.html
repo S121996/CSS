@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+div{height: 100px; width: 100px; background: blue;
+animation: data 6s; position: relative;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+
+@keyframes data{
+    0%{background: blue; left: 0px; top: 0px;}
+  20%{background: green; left: 800px; top: 0px;}
+ 40% {background: orange; left: 800px; top: 500px;}
+  60%{background: purple; left: 0px; top: 500px;}
+ 80% {background: pink; left: 0px; top: 250px;}
+ 100% {background: black; left: 0px; top: 0px;}
+}
+div:hover{animation-play-state: paused;}
+    </style>
+</head>
+<body>
+ <div></div>   
+</body>
+</html>

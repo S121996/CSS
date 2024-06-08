@@ -1,0 +1,3 @@
+.about{padding: 30px; text-align: justify;}
+.about p::first-letter{font-size: 70px; color: blue; initial-letter: 5;}
+.about h3{margin: 10px 0px;}

@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,body
+{
+ height: 100%;
+ width: 100%;
+ margin: 10px 10px;
+ 
+}
+
+img
+{
+    height: 400px;
+    /* filter: drop-shadow(10px 10px 20px black); */
+    border-radius: 20px;
+  /* box-shadow: 10px 10px 20px black; */
+  /* filter:blur(100px); */
+  /* filter: grayscale(2); */
+  filter: brightness();
+}

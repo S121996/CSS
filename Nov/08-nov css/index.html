@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+/* .a,.b{height: 30px; width: 60%; margin: 5px 20%;}
+.c{height: 30px; width: 60%; margin: 5px 20%; border: none; border-bottom: 2px solid blue;}
+.c:focus{outline: none;}
+textarea{height: 100px; width: 60%; margin: 5px 20%;}
+.d{padding: 8px; background: orange; margin-left: 20%; margin-top: 20px;} */
+
+[type="text"],[type="email"]{
+    height: 30px; width: 60%; margin: 5px 20%;
+}
+[type="number"]{
+    height: 30px; width: 60%; margin: 5px 20%; border: none; border-bottom: 2px solid blue;
+}
+[type="number"]:focus{outline: none;}
+textarea{height: 100px; width: 60%; margin: 5px 20%;}
+[type="submit"]{
+    padding: 8px; background: orange; margin-left: 20%; margin-top: 20px;
+}
+
+
+
+    </style>
+</head>
+<body>
+   <form name="frm">
+    <input type="text" name="n" placeholder="Enter Name" class="a">
+    <input type="email" name="e" placeholder="Enter Email" class="b">
+    <input type="number" name="ag" placeholder="Enter Age" class="c">
+    <textarea name="ad" placeholder="Enter Ur Address"></textarea>
+    <input type="submit" name="sub" class="d">
+   </form> 
+</body>
+</html>

@@ -1,0 +1,12 @@
+*{margin: 0px; padding: 0px;}
+.container{height: 1200px; width: 100%; background-color: rgb(87, 87, 230);}
+.header{height: 150px; width: 100%; text-align: center; background: white;}
+.logo{height: 150px; width: 25%; background: rgb(229, 105, 105); float: left;}
+.data{height: 150px; width: 75%; background: rgb(125, 221, 125); float: right;}
+.menu{height: 50px; width: 100%; background: wheat; text-align: center;}
+.slider{height: 300px; width: 100%; background: rgb(220, 220, 115); text-align: center;}
+.center{height: 600px; width: 100%; background: rgb(22, 18, 18);text-align:center;}
+.left{height: 600px; width: 20%; background:rgb(165, 228, 39) ; float: left; text-align: center;}
+.mid{height: 600px; width: 60%; background: orange; float: left;}
+.right{height: 600px; width: 20%; background: violet; float: right; text-align: center;}
+.footer{height: 100px; width: 100%; background: skyblue; text-align: center;}

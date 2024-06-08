@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    padding: 50px;
+    background:white;
+}
+
+#box{
+    height:300px;
+    width:300px;
+    border-radius: 40px;
+    background-color: #c1c1c1;
+    box-shadow: 20px 20px 60px #00000041,inset -20px -20px 60px #ffffff40;
+
+}

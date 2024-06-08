@@ -1,0 +1,12 @@
+/* h2{
+    background: red;text-align: center;font-size: 20px;
+}
+p{font-size: medium; color: aqua;font: 10px;} */
+
+#a{background: red;}
+.b{background: blue;}
+.c{background: purple; color: white;}
+.data{color: orange;}
+#txt{font-size: 40px; color: blue;}
+#demo{border: dotted;}
+

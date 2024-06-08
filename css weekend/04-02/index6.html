@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Document</title>
+    <style>
+.outer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1%;
+
+}
+.inner{
+    box-shadow: 0px 0px 8px black;
+
+}
+.inner img{height: auto; max-width: 100%;}
+.content{padding: 10px; text-align: justify;}
+
+
+@media only screen and (max-width:992px){
+    .outer{
+        grid-template-columns: auto auto ;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .outer{
+        grid-template-columns: auto ;
+    }
+}
+    </style>
+</head>
+<body>
+  <div class="outer" id="root"></div>
+<script>
+var obj=[
+{id:1,pname:"mobile",price:27000,category:"mobile",pimage:"image/m1.jpg"},
+{id:2,pname:"mobile",price:25000,category:"mobile",pimage:"image/m2.jpg"},
+{id:3,pname:"mobile",price:24000,category:"mobile",pimage:"image/m3.jpg"},
+{id:4,pname:"mobile",price:23000,category:"mobile",pimage:"image/m4.jpg"},
+{id:5,pname:"shirt",price:21000,category:"shirt",pimage:"image/s1.jpg"},
+{id:6,pname:"shirt",price:27000,category:"shirt",pimage:"image/s2.jpg"},
+{id:7,pname:"shirt",price:5000,category:"shirt",pimage:"image/s3.jpg"},
+{id:8,pname:"shirt",price:8000,category:"shirt",pimage:"image/s4.jpg"},
+{id:9,pname:"watch",price:5000,category:"watch",pimage:"image/w1.jpg"},
+{id:10,pname:"watch",price:3000,category:"watch",pimage:"image/w2.jpg"}
+]
+let totaldata=obj.map((item)=>{
+return(
+    `
+    <div class='inner'>
+    <img src=${item.pimage}>
+    <div class='content'>
+<h2>PName=${item.pname}</h2>
+<p>Price=${item.price}</p>
+<p>category=${item.category}</p>
+</div>
+        </div>
+    `
+)
+})
+document.getElementById("root").innerHTML=totaldata.join('')
+
+</script>
+
+
+
+
+ 
+</body>
+</html>

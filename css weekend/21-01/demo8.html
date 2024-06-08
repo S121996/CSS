@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.outer{height: 150px; width: 150px; perspective: 600px; border-radius: 50%;}
+.inner{height: 100%; width: 100%; border-radius: 50%; transition: all 3s;
+transform-style: preserve-3d;}
+.front img{height: 150px; width: 150px; border-radius: 50%;}
+
+.front,.back{position: absolute; backface-visibility: hidden; 
+    height: 100%; width: 100%; border-radius: 50%;}
+.back{padding: 30px; background: orange; transform: rotateX(-180deg);}
+.outer:hover .inner{
+    transform: rotateX(-180deg);
+}
+    </style>
+</head>
+<body>
+   <div class="outer">
+    <div class="inner">
+        <div class="front">
+            <img src="pic2.jpg">
+        </div>
+        <div class="back">
+            <h2>Lorem, ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+   </div> 
+</body>
+</html>

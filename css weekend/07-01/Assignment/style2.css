@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainbody {
+    height: 1000px;
+    width: 100%;
+    border: 5px solid orange;
+    background: wheat;
+}
+
+.main {
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+    width: 20%;
+    background: red;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.website {
+    height: 100px;
+    width: 80%;
+    background: green;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+    background: yellow;
+    color: white;
+    text-align: center;
+}
+
+.section {
+    height: 200px;
+    width: 100%;
+}
+
+.section1 {
+    height: 200px;
+    width: 33%;
+    background: blue;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.section2 {
+    height: 200px;
+    width: 34%;
+    background: gray;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.section3 {
+    height: 200px;
+    width: 33%;
+    background: palevioletred;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.center {
+    height: 600px;
+    width: 100%;
+}
+
+.page {
+    height: 600px;
+    width: 80%;
+    background: greenyellow;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.sidebar {
+    height: 600px;
+    width: 20%;
+    background: bisque;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background: lightskyblue;
+    color: white;
+    text-align: center;
+}

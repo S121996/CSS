@@ -1,0 +1,11 @@
+
+.contactdata{height: 300px; width: 100%;}
+.cleft{height: 300px; width: 30%; float: left; padding: 40px;}
+.cright{height: 300px; width: 70%; float: right; padding: 40px;}
+.cright [type="text"],[type="email"]{
+    height: 30px; width: 70%; margin: 4px 15%;
+}
+.cright textarea{height: 80px; width: 70%; margin: 4px 15%;}
+.cright [type="submit"]{
+    padding: 8px; background: orange; margin-left: 15%; margin-top: 15px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+div{animation: result 13s linear infinite;}  
+@keyframes result {
+    0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}  
+}      
+.circle1{height: 400px; width: 400px; border-radius: 50%; background: blue; border: dashed 4px; margin: 50px; position: relative;}
+div:hover{animation: none;}
+
+.circle2{height: 300px; width: 300px; border-radius: 50%; background: green; border: dashed 4px; position: absolute; top: 16.5%; left: 8.5%;
+animation: circle2 12s linear infinite reverse;}  
+ @keyframes circle2{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}   
+.circle3{height: 200px; width: 200px; background: palevioletred; border-radius: 50%; border: dashed 4px; position: absolute; top: 24.5%; left:12.6%;}
+ 
+    </style>
+</head>
+<body>
+    <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    
+</body>
+</html>

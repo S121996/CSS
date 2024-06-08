@@ -1,0 +1,35 @@
+<html >
+<head>
+
+    <title>Document</title>
+    <style>
+.a{height: 200px; width: 100px; background: orangered;
+position: relative; z-index: 2;
+}
+.b{height: 150px; width: 150px; background: yellowgreen;
+position: absolute; top: 10px; z-index: 4;
+}
+.c{height: 100px; width: 200px; background: green;
+position: absolute; top: 20px; z-index: 3;
+}
+.d{height: 50px; width: 250px; background: orange;
+position: absolute; top: 25px; z-index: 1;
+}
+span{display: none;}
+
+/* p:hover span{display: inline;} */
+p:hover span{display: block;}
+
+    </style>
+</head>
+<body>
+    <p>
+    Lorem ipsum dolor sit amet.
+    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et eos tempora, doloremque voluptatibus incidunt autem distinctio perferendis expedita ab? Porro, tempore aspernatur! Veritatis iusto sunt dolorum quos dicta deserunt quia dolorem dolor officia eos, exercitationem totam nisi et unde rerum!</span>
+    </p>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+</body>
+</html>

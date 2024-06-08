@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainbody {
+    height: 1000px;
+    width: 100%;
+    background: orange;
+}
+
+.mainmenu {
+    height: 50px;
+    width: 100%;
+    background: red;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background: blue;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    height: 800px;
+    width: 100%;
+    background: lavender;
+}
+
+.content {
+    height: 800px;
+    width: 70%;
+    background: lightgreen;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.sidebar {
+    height: 800px;
+    width: 30%;
+    background: green;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background: brown;
+    text-align: center;
+    color: white;
+}

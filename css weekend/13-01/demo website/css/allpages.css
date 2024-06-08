@@ -1,0 +1,18 @@
+.aboutdata{height: auto; width: 100%;
+background: url('../image/pic5.jpg'); background-size: cover;
+padding: 30px; text-align: justify; background-attachment: fixed;
+}
+.contact{height: 400px; width: 100%;}
+.cleft{height: 400px; width: 40%; float: left; background: violet;
+padding: 30px;}
+.cright{height: 400px; width: 60%; float: right; background: wheat;
+padding: 30px;}
+.cform{ height: auto; width: 100%;}
+.cform [type="text"],[type="email"]{
+    height: 25px; width: 90%; margin: 4px 5%;
+}
+.cform textarea{height: 100px; width: 90%; margin: 4px 5%;}
+.cform [type="submit"]{
+    padding: 9px; background: orange;
+    margin-left: 7%; margin-top: 10px;
+}

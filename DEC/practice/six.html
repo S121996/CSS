@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{margin:0px;padding:0px;box-sizing: border-box;}
+    .main{height:auto;width: 100%;}
+    .header{height: auto;width: 100%;background: lightblue;text-align: center;
+    padding:30px;font-size: 4vw;}
+    .menu{height: auto;width: 100%;background: wheat;padding:15px 0px;}
+    .menu a{text-decoration: none;padding: 15px 30px;}
+    .center{height:auto;width:100%;}
+    .left{height: 100px;width: 16.66%;float:left;border: solid;}
+    .aboutdata{text-align: justify;padding: 30px;}
+
+    @media only screen and(max-width:1200px)
+    {
+        .left{width:25%;}
+    }
+
+    @media only screen and(max-width:992px)
+    {
+        .left{width:25%; font-size: 40px;}
+    }
+
+    @media only screen and(max-width:768px)
+    {
+        .menu a{display:block;text-align: center;}
+        .left{width:100%;}
+        #mydiv{display: none;}
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="header">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="login.html">login</a>
+            <a href="login.html">blog</a>
+            <a href="login.html">data</a>
+        </div>
+        <div class="aboutdata">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, beatae? At adipisci ex,
+                 repellat rerum reprehenderit ea dolores facilis eos?</p>
+        </div>
+    </div>
+</body>
+</html>

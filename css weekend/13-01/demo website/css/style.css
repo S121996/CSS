@@ -1,0 +1,32 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.mainbody{height: auto; width: 100%;}
+.header{height: auto; width: 100%; background: lightblue;
+padding: 40px; text-align: center;}
+
+.menu{height: auto; width: 100%; background: lightgray;
+padding: 15px 0px; position: sticky; top: 0px; z-index: 2;}
+.menu a{text-decoration: none; padding: 15px 30px;}
+.menu a:hover{background: purple; color: white;}
+
+.slider{height: auto; width: 100%;}
+.slider img{height: 600px; width: 100%;}
+
+.center{height: 1000px; width: 100%;}
+.left{height: 1000px; width: 20%; float: left; background: olivedrab;}
+.right{height: 1000px; width: 80%; float: right; background: orange;
+padding: 35px; text-align: justify;
+}
+
+.right p{text-indent: 150px;}
+.right p::first-letter{font-size: 50px; color: red; initial-letter: 4;}
+
+
+.post{height: auto; width: 90%; margin: 0px 5%; padding: 15px;
+line-height: 30px;
+}
+.marquee{line-height: 30px; position: relative; z-index: 1;}
+.idata{height: auto; width: 100%;}
+/* .idata img{height: 60px; width: 25%; float: left; margin: 0px 3%; border: 2px solid green;} */
+.idata img{height: auto; width: 90%; margin: 4px 5%; border: 2px solid green;}
+.footer{height: auto; width: 100%; background: black; color: white;
+padding: 40px; text-align: center;}

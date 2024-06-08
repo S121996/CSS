@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.outer{
+    display: grid;
+    gap:15px; 
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    border: solid;
+}
+.outer div{padding: 12px; text-align: center; background: orange; }
+/* .left1{
+grid-column-start: 1;
+grid-column-end: 4;
+} 
+.left1{grid-row-start: 1;
+grid-row-end: 4;
+}
+*/
+.left1{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+    </style>
+</head>
+<body>
+   <div class="outer">
+<div class="left1">1</div>
+<div class="left2">2</div>
+<div class="left3">3</div>
+<div class="left4">4</div>
+<div class="left5">5</div>
+<div class="left6">6</div>
+<div class="left7">7</div>
+<div class="left8">8</div>
+<div class="left11">11</div>
+<div class="left22">22</div>
+<div class="left33">33</div>
+<div class="left44">44</div>
+<div class="left55">55</div>
+<div class="left66">66</div>
+<div class="left77">77</div>
+<div class="left88">88</div>
+   </div> 
+</body>
+</html>
